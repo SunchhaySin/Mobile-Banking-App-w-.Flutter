@@ -4,7 +4,7 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is a mobile banking application featuring real banking concepts, built using Flutter and served by a node.js express backend connectivity. The newest edition is that the backend is fully hosted on an external server, allowing for global access without limiations. Furture updates will try to round off the application with support for new features, such as favourited accounts, other personal customizations within the app. The Frontend will also be improved and published for usage sample on the web soon.
 
 A few resources to get you started if this is your first Flutter project:
 
