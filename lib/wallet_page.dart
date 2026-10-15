@@ -80,11 +80,11 @@ class _WalletPageState extends State<WalletPage> {
           ),
         ),
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 40),
+          padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              SizedBox(height: 130),
+              SizedBox(height: 100),
               Text(
                 "Mobile Savings Account",
                 style: TextStyle(
@@ -156,11 +156,7 @@ class _WalletPageState extends State<WalletPage> {
                 ),
               ),
               SizedBox(height: 8),
-              ConstrainedBox(
-                constraints: BoxConstraints(
-                  minHeight: 0,
-                  maxHeight: MediaQuery.of(context).size.height * 0.5,
-                ),
+              Expanded(
                 child: Container(
                   decoration: BoxDecoration(
                     color: Colors.black.withOpacity(0.3),

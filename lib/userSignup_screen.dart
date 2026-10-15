@@ -76,10 +76,10 @@ class SignupState extends State<SignupPage> {
           ),
           Center(
             child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 60, vertical: 20),
+              padding: EdgeInsets.symmetric(horizontal: 25, vertical: 20),
               child: Column(
                 children: [
-                  SizedBox(height: 150),
+                  SizedBox(height: 100),
                   Text(
                     'Account Registration',
                     style: TextStyle(

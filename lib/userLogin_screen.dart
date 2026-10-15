@@ -73,7 +73,7 @@ class LoginState extends State<LoginPage> {
             )),
         child: Center(
           child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 30, vertical: 80),
+            padding: EdgeInsets.symmetric(horizontal: 30, vertical: 60),
             child: Column(
               children: [
                 SizedBox(height:40),
